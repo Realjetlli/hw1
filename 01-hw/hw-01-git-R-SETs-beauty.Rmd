@@ -293,6 +293,8 @@ beauty %>%
 The following visualization plots the student evaluation of the professor against their assessed beauty.
 The diagonal line on the plot is the $x = y$ line; fitted using OLS.
 
+Answer 4:
+
 ```{r eval = TRUE, echo = FALSE, fig.fullwidth = TRUE}
 # create viz
 ggplot(beauty, aes(x = eval, y = beauty)) +
